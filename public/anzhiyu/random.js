@@ -1,0 +1,3 @@
+var posts=["2024/03/05/code-formula-showcase/","2024/03/05/comsol-simulation-results/","2024/03/04/knowledge-graph-example/","2024/01/01/hello-world/","2024/03/05/video-recommendation-example/","2024/03/05/knowledge-mindmap/","2024/03/05/rag-knowledge-engine/","2026/03/16/ppt-style-image-carousel/"];function toRandomPost(){
+    pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
+  };
